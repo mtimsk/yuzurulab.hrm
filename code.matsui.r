@@ -54,3 +54,9 @@ ggpairs(catsle.transportation) +
 # library(GGally)
 # 
 # ggpairs(piyo)
+
+
+#モデルを組む
+lm(total.population ~ct, data = catsle.transportation)
+
+
